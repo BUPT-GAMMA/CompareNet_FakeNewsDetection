@@ -27,6 +27,8 @@ balancedtest.csv and fulltrain.csv can be obtained from https://homes.cs.washing
 
 test.xsls is basically the SLN dataset according to the paper. You can obtain this dataset from http://victoriarubin.fims.uwo.ca/news-verification/data-to-go/
 
+
+
 # Dependencies
 
 Our code runs on the GeForce RTX 2080 Ti (11GB), with the following packages installed:
@@ -42,6 +44,8 @@ matplotlib
 scikit_learn
 xlrd (pip install xlrd)
 ```
+
+
 
 # Run
 
