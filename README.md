@@ -32,7 +32,6 @@ test.xsls is basically the SLN dataset according to the paper. You can obtain th
 # Dependencies
 
 Our code runs on the GeForce RTX 2080 Ti (11GB), with the following packages installed:
-
 ```
 python 3.7
 torch 1.3.1
@@ -50,7 +49,6 @@ xlrd (pip install xlrd)
 # Run
 
 Train and test,
-
 ```
 python main.py --mode 0
 ```
@@ -62,13 +60,13 @@ python main.py --mode 1 --model_file MODELNAME
 
 # Citation
 If you make advantage of our model in your research, please cite the following in your manuscript:
-
-> @inproceedings{linmei2019heterogeneous,
->  title={Heterogeneous graph attention networks for semi-supervised short text classification},
->  author={Linmei, Hu and Yang, Tianchi and Shi, Chuan and Ji, Houye and Li, Xiaoli},
->  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
->  pages={4823--4832},
->  year={2019}
-> }
-
+```
+@inproceedings{linmei2019heterogeneous,
+ title={Heterogeneous graph attention networks for semi-supervised short text classification},
+ author={Linmei, Hu and Yang, Tianchi and Shi, Chuan and Ji, Houye and Li, Xiaoli},
+ booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
+ pages={4823--4832},
+ year={2019}
+}
+```
 
