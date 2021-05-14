@@ -61,12 +61,11 @@ python main.py --mode 1 --model_file MODELNAME
 # Citation
 If you make advantage of our model in your research, please cite the following in your manuscript:
 ```
-@inproceedings{linmei2019heterogeneous,
- title={Heterogeneous graph attention networks for semi-supervised short text classification},
- author={Linmei, Hu and Yang, Tianchi and Shi, Chuan and Ji, Houye and Li, Xiaoli},
- booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},
- pages={4823--4832},
- year={2019}
+@inproceedings{linmei2021compare,
+ title={Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge},
+ author={Hu, Linmei and Yang, Tianchi and Zhang, Luhao and Zhong, Wanjun and Tang, Duyu and Shi, Chuan and Duan, Nan and Zhou, Ming},
+ booktitle={ACL 2021},
+ year={2021}
 }
 ```
 
