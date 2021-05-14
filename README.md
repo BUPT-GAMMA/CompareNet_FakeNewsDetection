@@ -1,4 +1,4 @@
-Code for the under-reviewed EMNLP 2020 paper "CompareNet: Integrating Heterogeneous Knowledge for Fake News Detection"
+Code for the ACL 2021 paper "CompareNet: Integrating Heterogeneous Knowledge for Fake News Detection"
 
 
 Make sure the following files are present as per the directory structure before running the code,
