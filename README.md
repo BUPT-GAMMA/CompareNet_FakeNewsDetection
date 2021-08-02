@@ -1,4 +1,4 @@
-Code for the ACL 2021 paper "Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge"
+Code for the ACL 2021 paper "[Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge](https://aclanthology.org/2021.acl-long.62/)"
 
 
 Make sure the following files are present as per the directory structure before running the code,
@@ -62,10 +62,16 @@ python main.py --mode 1 --model_file MODELNAME
 If you make advantage of our model in your research, please cite the following in your manuscript:
 ```
 @inproceedings{linmei2021compare,
- title={Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge},
- author={Hu, Linmei and Yang, Tianchi and Zhang, Luhao and Zhong, Wanjun and Tang, Duyu and Shi, Chuan and Duan, Nan and Zhou, Ming},
- booktitle={ACL 2021},
- year={2021}
+    title = "Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge",
+    author = "Hu, Linmei  and  Yang, Tianchi  and  Zhang, Luhao  and  Zhong, Wanjun  and  Tang, Duyu  and  Shi, Chuan  and  Duan, Nan  and  Zhou, Ming",
+    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+    month = aug,
+    year = "2021",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.acl-long.62",
+    doi = "10.18653/v1/2021.acl-long.62",
+    pages = "754--763",
 }
+
 ```
 
