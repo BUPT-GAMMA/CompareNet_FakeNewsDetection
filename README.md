@@ -23,10 +23,9 @@ FakeNewsDetection
 
 ```
 
-balancedtest.csv and fulltrain.csv can be obtained from https://homes.cs.washington.edu/~hrashkin/fact_checking_files/newsfiles.tar.gz
+balancedtest.csv and fulltrain.csv can be obtained from https://drive.google.com/file/d/1njY42YQD5Mzsx2MKkI_DdtCk5OUKgaqq/view?usp=sharing (thanks to https://github.com/MysteryVaibhav/fake_news_semantics)
 
 test.xsls is basically the SLN dataset according to the paper. You can obtain this dataset from http://victoriarubin.fims.uwo.ca/news-verification/data-to-go/
-
 
 
 # Dependencies
