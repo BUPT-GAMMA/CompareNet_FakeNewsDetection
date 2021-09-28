@@ -34,7 +34,7 @@ class Utils:
         if not cuda or arr is None:
             return arr
         if isinstance(arr, list) or isinstance(arr, tuple):
-            return [Utils.to_gpu(a, cuda) for a in arr]
+            return [self.to_gpu(a, cuda) for a in arr]
         else:
             try:
                 return arr.cuda()
