@@ -57,9 +57,15 @@ class DataLoader:
             self.train, self.dev, self.adj_train, self.adj_dev, self.fea_train, self.fea_dev = \
                 train_test_split(self.train, self.adj_train, self.fea_train, test_size=0.2, random_state=42)
         else:
-            with open(w2i_pkl_path, 'rb') as f:
-                w2i = pkl.load(f)
-                UNK = w2i["<unk>"]
+#             with open(w2i_pkl_path, 'rb') as f:
+#                 w2i = pkl.load(f)
+#                 UNK = w2i["<unk>"]
+            w2i = freezable_defaultdict(lambda: len(w2i))
+            UNK = w2i["<unk>"]
+
+            self.train, self.adj_train, self.fea_train = self.read_dataset(params.train, w2i, train_pkl_path)
+            print("Average train document length: {}".format(np.mean([len(x[0]) for x in self.train])))
+            print("Maximum train document length: {}".format(max([len(x[0]) for x in self.train])))
 
         w2i = freezable_defaultdict(lambda: UNK, w2i)
         w2i.freeze()
