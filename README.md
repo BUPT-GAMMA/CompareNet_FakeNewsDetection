@@ -27,6 +27,7 @@ balancedtest.csv and fulltrain.csv can be obtained from https://drive.google.com
 
 test.xsls is basically the SLN dataset according to the paper. You can obtain this dataset from http://victoriarubin.fims.uwo.ca/news-verification/data-to-go/
 
+UPDATE: The datasets from the above links seem to be changed. I have found the data in my local machine and uploaded it to the release(raw_data.zip): https://github.com/BUPT-GAMMA/CompareNet_FakeNewsDetection/releases/tag/dataset
 
 # Dependencies
 
